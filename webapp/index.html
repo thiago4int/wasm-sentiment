@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb Review Sentiment Analysis</title>
+    <!-- Link to the external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link to the Google Fonts API for Roboto font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">IMDb Review Sentiment Analysis</h1>
+        <textarea id="reviewText" rows="10" cols="50" placeholder="Enter your movie review here..."></textarea>
+        <br>
+        <button onclick="predictSentiment()">Predict Sentiment</button>
+        <h2 id="predictionResult"></h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
